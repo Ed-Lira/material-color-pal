@@ -10,9 +10,9 @@ Apache Licence 2.0
     var darkPrimary = color.Main700;
     var secondary = mColorPalettes.red.Accent400;
     
-    document.getElementById("status-bar").setAttribute("style","background-color:" + darkPrimary +";");
-    document.getElementById("header").setAttribute("style","background-color:" + primary +";");
-    document.getElementById("floating-action-button").setAttribute("style","background-color:" + primary +";");
+    document.getElementById("status-bar").style.backgroundColor = darkPrimary;
+    document.getElementById("jumbo").style.backgroundColor = primary;
+    document.getElementById("floating-action-button").style.backgroundColor = secondary;
 ```
 Full list of colors available at https://www.google.com/design/spec/style/color.html
 Palette names are camelCased with spaces removed, so "Deep Orange" becomes "mColorPalettes.deepOrange"
